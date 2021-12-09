@@ -29,10 +29,22 @@ USER_ID LOCATION_ID
 ### How will your code be tested?
 The code will be tested against test cases.
 
-For performance we are testing the code with a file having 1million records, 10 million records and 100 million records
+For performance we are testing the code with a file having 1 million records, 10 million records and 100 million records
+
+**Expected Runtime** : Your code is expected to generate the output file for 1 million records within 5 seconds, 10 million within 50 seconds and 100 million within 500 seconds.
+
+**Important Note** : While testing your code we will run your code with N files, 2 <= N <= 10. You can expect all the **N** files to be evenly divided with data.
+
+
 ### Hardware Requirement:
  1GB RAM, 2 core CPU
  
+## Sample data
+Sample data can be downloaded from [here](https://dataoverflow.affinityanswers.com/sample_data/mock_problem/data.zip)
+
+This is a zip file, please uncompress it using a unzip command or simple uncompressing tool.
+
+You can use this sample data to run your code. 
 
 ## How to get started with the repository?
 * Login to github and visit the [repository](https://github.com/affinityanswers/dataoverflow-mockproblem/).
@@ -49,6 +61,6 @@ For performance we are testing the code with a file having 1million records, 10 
   This tests your code with basic test cases.
 * To run your code with the given sample input file, please run
 
-```python3 wrapper.py run -i {input_file_1} {input_file_2} -o output_file.tsv```
+```python3 wrapper.py run -i input_file_1.tsv [input_file_2.tsv ...] -o output_file.tsv```
 * Once you are happy with the code, commit the code
 * Submit your github repository link along with the commit id in our [website](https://dataoverflow.affinityanswers.com).
